@@ -1,0 +1,151 @@
+/* root */
+:root{
+    --primary-text-color:#757575;
+    --titel-text-color:#212121;
+    --accent-kolor:#2196F3;
+    --secondary-color:#FFFFFF;
+    --button-color: #F5F4FA;
+    --logo-font: Raleway;font-weight: 700;font-size: 26px;line-height: 1.192; letter-spacing: 0.03em;
+    --navigation-font:Roboto;font-weight: 500;font-size: 14px;line-height: 1.143;letter-spacing: 0.02em;
+    --subtitel-font:Roboto; font-weight:bold;font-size: 36px;line-height: 1.7; letter-spacing: 0.03em;
+    --titel-font: Roboto;font-weight: 900;font-size: 44px;line-height: 1.36;letter-spacing: 0.06em;
+   --button-font:Roboto;font-size: 16px;
+   --pre-subtitle-font:Roboto;font-weight: bold;font-size: 14px;line-height: 1.143x;letter-spacing: 0.03em;
+    
+} 
+
+/* root */
+.body {
+    color: var(--titel-text-color);
+   
+}
+
+/* header */
+.header{
+    color: var(--titel-text-color)
+   
+}
+
+/* logo */
+.logo{
+    font-family: var(--logo-font)
+   
+}
+.logo-first-part{
+    color: var(--accent-kolor)
+    
+    
+}
+.logo-second-part{
+    color:var(--titel-text-color)
+    
+}
+.logo{
+    text-decoration: none;
+}
+/* logo */
+.site-nav{
+    font-family: var(--navigation-font);
+    
+}
+.link{
+    text-decoration: none;
+}
+
+/* contacts */
+.contacts{
+    font-family: var(--navigation-font);
+    
+}
+.contacts a{
+    text-decoration: none;
+    color: var(--titel-text-color);
+}
+.contacts a:hover,.contacts a:focus,.contacts a:active{
+    color: var(--accent-kolor);
+}
+/* contacts */
+/* link */
+.link:focus,.link:hover,.link:active{
+    color:var(--accent-kolor)
+    }
+/* link */
+/* header */
+/* main */
+.titel{
+ font-family: var(--titel-font);  
+}
+.button-hero{
+    border: none;
+    font-weight: bold;line-height: 1.875x;letter-spacing: 0.06em;
+    font-family: var(--button-font);
+    background-color: var(--accent-kolor);
+    color: var(--secondary-color);
+    text-align: center;
+    
+
+}
+.button{
+    font-family: var(--button-font); font-weight: 500;line-height: 1.733x;
+    background-color: var(--button-color);
+    color: var(--titel-text-color);
+    border: none;
+}
+.button:active,.button:hover,.button:focus{
+    color: var(--accent-kolor);
+}
+.activ-button{
+    border: none;
+    background-color: var(--accent-kolor);
+    color: var(--secondary-color)
+}
+.subtitel{
+    font-family: var(--subtitel-font);
+
+}
+.subtitel{
+    font-family: var(--subtitel-font);
+
+}
+.pre-subtitle{
+    color: var(--titel-text-color);
+    font-family:var(--pre-subtitle-font)
+    
+
+}
+.text{
+   color: var(--primary-text-color)
+}
+/* main */
+/* hero */
+.hero{
+    background-color: #2F303A;
+    color:  var(--secondary-color)
+}
+/* hero */
+/* foter */
+.logo-footer-second-part{
+    color: var(--secondary-color)
+}
+.contacts-footer{
+    font-family: var(--navigation-font);
+    font-weight: normal;line-height: 1.171;
+
+}
+.contacts-footer a{
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+.contacts-footer a:hover,.contacts-footer a:focus,.contacts-footer a:active{
+    color: var(--accent-kolor);
+}
+.adress{
+    font-style: normal;
+}
+.footer{
+    background-color: #2F303A;
+    color:var(--secondary-color)
+
+
+}
+/* foter */
